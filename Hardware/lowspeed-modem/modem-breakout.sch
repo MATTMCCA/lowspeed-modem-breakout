@@ -158,7 +158,7 @@
 </package>
 </packages>
 <packages3d>
-<package3d name="3M_8468-11B1-RK-TP" urn="urn:adsk.eagle:package:33322608/1" type="box" library_version="1">
+<package3d name="3M_8468-11B1-RK-TP" urn="urn:adsk.eagle:package:33322608/2" type="model" library_version="2">
 <packageinstances>
 <packageinstance name="3M_8468-11B1-RK-TP"/>
 </packageinstances>
@@ -243,7 +243,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="8468-11B1-RK-TP" urn="urn:adsk.eagle:component:33322609/1" prefix="J" library_version="1">
+<deviceset name="8468-11B1-RK-TP" urn="urn:adsk.eagle:component:33322609/2" prefix="J" library_version="2">
 <description>PLCC Chip Carrier Socket (Low Profile, 4 Row, Thru-Hole) 68 position &lt;a href="https://pricing.snapeda.com/parts/8468-11B1-RK-TP/3M/view-part?ref=eda"&gt;Check prices&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="8468-11B1-RK-TP" x="0" y="0"/>
@@ -321,7 +321,7 @@
 <connect gate="G$1" pin="9" pad="9"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:33322608/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:33322608/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -4868,226 +4868,8 @@ Source: AVX .. aphvc.pdf</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="con-tycoelectronics" urn="urn:adsk.eagle:library:193">
-<description>&lt;b&gt;Tyco Electronics Connector&lt;/b&gt;&lt;p&gt;
-http://catalog.tycoelectronics.com&lt;br&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="RJ11-NO_SHIELD" urn="urn:adsk.eagle:footprint:10643/1" library_version="2">
-<description>&lt;b&gt;RJ11 Low Profile&lt;/b&gt; No Shield&lt;/b&gt;&lt;p&gt;
-For all RJ11 N and Z Series Models&lt;br&gt;
-Source: www.tycoelectronics.com .. ENG_DS_1654001_1099_RJ_L_0507.pdf</description>
-<wire x1="-6.877" y1="10.819" x2="6.877" y2="10.819" width="0.2032" layer="21"/>
-<wire x1="7.8105" y1="-5.51" x2="-7.8105" y2="-5.51" width="0.01" layer="20"/>
-<wire x1="6.877" y1="-7.782" x2="-6.877" y2="-7.782" width="0.2032" layer="21"/>
-<wire x1="-6.877" y1="-7.782" x2="-6.877" y2="10.819" width="0.2032" layer="21"/>
-<wire x1="6.877" y1="10.819" x2="6.877" y2="-7.782" width="0.2032" layer="21"/>
-<pad name="4" x="0.635" y="6.35" drill="0.9" diameter="1.4"/>
-<pad name="3" x="-0.635" y="8.89" drill="0.9" diameter="1.4"/>
-<pad name="2" x="-1.905" y="6.35" drill="0.9" diameter="1.4"/>
-<pad name="5" x="1.905" y="8.89" drill="0.9" diameter="1.4"/>
-<pad name="1" x="-3.175" y="8.89" drill="0.9" diameter="1.4"/>
-<pad name="6" x="3.175" y="6.35" drill="0.9" diameter="1.4"/>
-<text x="-7.62" y="-0.635" size="1.778" layer="25" rot="R90">&gt;NAME</text>
-<text x="-5.715" y="2.54" size="1.778" layer="27">&gt;VALUE</text>
-<rectangle x1="6.95" y1="-5.485" x2="7.875" y2="-4.342" layer="21"/>
-<rectangle x1="-7.875" y1="-5.485" x2="-6.95" y2="-4.342" layer="21"/>
-<hole x="-5.08" y="0" drill="3.2512"/>
-<hole x="5.08" y="0" drill="3.2512"/>
-</package>
-</packages>
-<packages3d>
-<package3d name="RJ11-NO_SHIELD" urn="urn:adsk.eagle:package:10656/1" type="box" library_version="2">
-<description>RJ11 Low Profile No Shield
-For all RJ11 N and Z Series Models
-Source: www.tycoelectronics.com .. ENG_DS_1654001_1099_RJ_L_0507.pdf</description>
-<packageinstances>
-<packageinstance name="RJ11-NO_SHIELD"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="JACK6" urn="urn:adsk.eagle:symbol:10642/1" library_version="2">
-<wire x1="1.524" y1="5.588" x2="0" y2="5.588" width="0.254" layer="94"/>
-<wire x1="0" y1="5.588" x2="0" y2="4.572" width="0.254" layer="94"/>
-<wire x1="0" y1="4.572" x2="1.524" y2="4.572" width="0.254" layer="94"/>
-<wire x1="1.524" y1="3.048" x2="0" y2="3.048" width="0.254" layer="94"/>
-<wire x1="0" y1="3.048" x2="0" y2="2.032" width="0.254" layer="94"/>
-<wire x1="0" y1="2.032" x2="1.524" y2="2.032" width="0.254" layer="94"/>
-<wire x1="1.524" y1="0.508" x2="0" y2="0.508" width="0.254" layer="94"/>
-<wire x1="0" y1="0.508" x2="0" y2="-0.508" width="0.254" layer="94"/>
-<wire x1="0" y1="-0.508" x2="1.524" y2="-0.508" width="0.254" layer="94"/>
-<wire x1="1.524" y1="-2.032" x2="0" y2="-2.032" width="0.254" layer="94"/>
-<wire x1="0" y1="-2.032" x2="0" y2="-3.048" width="0.254" layer="94"/>
-<wire x1="0" y1="-3.048" x2="1.524" y2="-3.048" width="0.254" layer="94"/>
-<wire x1="1.524" y1="-4.572" x2="0" y2="-4.572" width="0.254" layer="94"/>
-<wire x1="0" y1="-4.572" x2="0" y2="-5.588" width="0.254" layer="94"/>
-<wire x1="0" y1="-5.588" x2="1.524" y2="-5.588" width="0.254" layer="94"/>
-<wire x1="1.524" y1="-7.112" x2="0" y2="-7.112" width="0.254" layer="94"/>
-<wire x1="0" y1="-7.112" x2="0" y2="-8.128" width="0.254" layer="94"/>
-<wire x1="0" y1="-8.128" x2="1.524" y2="-8.128" width="0.254" layer="94"/>
-<wire x1="4.318" y1="-3.556" x2="6.858" y2="-3.556" width="0.1998" layer="94"/>
-<wire x1="6.858" y1="-3.556" x2="6.858" y2="-2.286" width="0.1998" layer="94"/>
-<wire x1="6.858" y1="-2.286" x2="7.874" y2="-2.286" width="0.1998" layer="94"/>
-<wire x1="7.874" y1="-2.286" x2="7.874" y2="-0.254" width="0.1998" layer="94"/>
-<wire x1="7.874" y1="-0.254" x2="6.858" y2="-0.254" width="0.1998" layer="94"/>
-<wire x1="6.858" y1="-0.254" x2="6.858" y2="1.016" width="0.1998" layer="94"/>
-<wire x1="6.858" y1="1.016" x2="4.318" y2="1.016" width="0.1998" layer="94"/>
-<wire x1="4.318" y1="1.016" x2="4.318" y2="0" width="0.1998" layer="94"/>
-<wire x1="4.318" y1="0" x2="4.318" y2="-0.508" width="0.1998" layer="94"/>
-<wire x1="4.318" y1="-0.508" x2="4.318" y2="-1.016" width="0.1998" layer="94"/>
-<wire x1="4.318" y1="-1.016" x2="4.318" y2="-1.524" width="0.1998" layer="94"/>
-<wire x1="4.318" y1="-1.524" x2="4.318" y2="-2.032" width="0.1998" layer="94"/>
-<wire x1="4.318" y1="-2.032" x2="4.318" y2="-2.54" width="0.1998" layer="94"/>
-<wire x1="4.318" y1="-2.54" x2="4.318" y2="-3.556" width="0.1998" layer="94"/>
-<wire x1="4.318" y1="0" x2="5.08" y2="0" width="0.1998" layer="94"/>
-<wire x1="4.318" y1="-0.508" x2="5.08" y2="-0.508" width="0.1998" layer="94"/>
-<wire x1="4.318" y1="-1.016" x2="5.08" y2="-1.016" width="0.1998" layer="94"/>
-<wire x1="4.318" y1="-1.524" x2="5.08" y2="-1.524" width="0.1998" layer="94"/>
-<wire x1="4.318" y1="-2.032" x2="5.08" y2="-2.032" width="0.1998" layer="94"/>
-<wire x1="4.318" y1="-2.54" x2="5.08" y2="-2.54" width="0.1998" layer="94"/>
-<text x="-2.54" y="7.62" size="1.778" layer="95">&gt;NAME</text>
-<text x="-2.54" y="-10.668" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="1" x="-2.54" y="5.08" visible="pin" length="short" direction="pas" swaplevel="1"/>
-<pin name="2" x="-2.54" y="2.54" visible="pin" length="short" direction="pas" swaplevel="1"/>
-<pin name="3" x="-2.54" y="0" visible="pin" length="short" direction="pas" swaplevel="1"/>
-<pin name="4" x="-2.54" y="-2.54" visible="pin" length="short" direction="pas" swaplevel="1"/>
-<pin name="5" x="-2.54" y="-5.08" visible="pin" length="short" direction="pas" swaplevel="1"/>
-<pin name="6" x="-2.54" y="-7.62" visible="pin" length="short" direction="pas" swaplevel="1"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="RJ11" urn="urn:adsk.eagle:component:10665/2" prefix="J" library_version="2">
-<description>&lt;b&gt;CORCOM Modular RJ Jacks&lt;/b&gt; No Shield&lt;p&gt;
-Source: www.tycoelectronics.com .. ENG_DS_1654001_1099_RJ_L_0507.pdf</description>
-<gates>
-<gate name="G$1" symbol="JACK6" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="RJ11-NO_SHIELD">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:10656/1"/>
-</package3dinstances>
-<technologies>
-<technology name="-2L-B">
-<attribute name="MF" value="TYCO ELECTRONICS" constant="no"/>
-<attribute name="MPN" value="RJ11-2L-B" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="83F4463" constant="no"/>
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-<technology name="-2L-S">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="RJ11-2L-S" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="73K3294" constant="no"/>
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-<technology name="-2X">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-<technology name="-4L-B">
-<attribute name="MF" value="TYCO ELECTRONICS" constant="no"/>
-<attribute name="MPN" value="RJ11-4L-B" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="52K3315" constant="no"/>
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-<technology name="-4L-S">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="RJ11-4L-S" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="69K7126" constant="no"/>
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-<technology name="-4X">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="6609214-3" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="19R7022" constant="no"/>
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-<technology name="-6L-B">
-<attribute name="MF" value="TYCO ELECTRONICS" constant="no"/>
-<attribute name="MPN" value="RJ11-6L-B" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="52K3613" constant="no"/>
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-<technology name="-6L-S">
-<attribute name="MF" value="TYCO ELECTRONICS" constant="no"/>
-<attribute name="MPN" value="RJ11-6L-S" constant="no"/>
-<attribute name="OC_FARNELL" value="1654827" constant="no"/>
-<attribute name="OC_NEWARK" value="50F1358" constant="no"/>
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-<technology name="-6X">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="RJ11-6X" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="16R6089" constant="no"/>
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="AP2111H-3.3TRG1" urn="urn:adsk.eagle:library:29764339">
 <packages>
-<package name="SOT-223_DIO" urn="urn:adsk.eagle:footprint:29764342/1" library_version="1">
-<smd name="1" x="-2.3" y="-3.025" dx="0.8508" dy="1.7612" layer="1"/>
-<smd name="2" x="0" y="-3.025" dx="0.8508" dy="1.7612" layer="1"/>
-<smd name="3" x="2.3" y="-3.025" dx="0.8508" dy="1.7612" layer="1"/>
-<smd name="4" x="0" y="3.025" dx="3.1508" dy="1.7612" layer="1"/>
-<wire x1="-1.905" y1="-1.778" x2="-2.6924" y2="-1.778" width="0.1524" layer="51"/>
-<wire x1="-2.6924" y1="-1.778" x2="-2.6924" y2="-3.556" width="0.1524" layer="51"/>
-<wire x1="-2.6924" y1="-3.556" x2="-1.905" y2="-3.556" width="0.1524" layer="51"/>
-<wire x1="-1.905" y1="-3.556" x2="-1.905" y2="-1.778" width="0.1524" layer="51"/>
-<wire x1="0.4064" y1="-1.778" x2="-0.4064" y2="-1.778" width="0.1524" layer="51"/>
-<wire x1="-0.4064" y1="-1.778" x2="-0.4064" y2="-3.556" width="0.1524" layer="51"/>
-<wire x1="-0.4064" y1="-3.556" x2="0.4064" y2="-3.556" width="0.1524" layer="51"/>
-<wire x1="0.4064" y1="-3.556" x2="0.4064" y2="-1.778" width="0.1524" layer="51"/>
-<wire x1="2.6924" y1="-1.778" x2="1.905" y2="-1.778" width="0.1524" layer="51"/>
-<wire x1="1.905" y1="-1.778" x2="1.905" y2="-3.556" width="0.1524" layer="51"/>
-<wire x1="1.905" y1="-3.556" x2="2.6924" y2="-3.556" width="0.1524" layer="51"/>
-<wire x1="2.6924" y1="-3.556" x2="2.6924" y2="-1.778" width="0.1524" layer="51"/>
-<wire x1="-1.5494" y1="1.778" x2="1.5494" y2="1.778" width="0.1524" layer="51"/>
-<wire x1="1.5494" y1="1.778" x2="1.5494" y2="3.556" width="0.1524" layer="51"/>
-<wire x1="1.5494" y1="3.556" x2="-1.5494" y2="3.556" width="0.1524" layer="51"/>
-<wire x1="-1.5494" y1="3.556" x2="-1.5494" y2="1.778" width="0.1524" layer="51"/>
-<wire x1="-3.2766" y1="-1.778" x2="3.2766" y2="-1.778" width="0.1524" layer="51"/>
-<wire x1="3.2766" y1="-1.778" x2="3.2766" y2="1.778" width="0.1524" layer="51"/>
-<wire x1="3.2766" y1="1.778" x2="-3.2766" y2="1.778" width="0.1524" layer="51"/>
-<wire x1="-3.2766" y1="1.778" x2="-3.2766" y2="-1.778" width="0.1524" layer="51"/>
-<wire x1="-2.8956" y1="-1.524" x2="-3.1496" y2="-1.524" width="0" layer="51" curve="-180"/>
-<wire x1="-3.1496" y1="-1.524" x2="-2.8956" y2="-1.524" width="0" layer="51" curve="-180"/>
-<wire x1="-3.4036" y1="-1.905" x2="-2.9464" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="3.4036" y1="-1.905" x2="3.4036" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="3.4036" y1="1.905" x2="1.8034" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="-3.4036" y1="1.905" x2="-3.4036" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-1.651" y1="-1.905" x2="-0.6604" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="0.6604" y1="-1.905" x2="1.651" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="2.9464" y1="-1.905" x2="3.4036" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-1.8034" y1="1.905" x2="-3.4036" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="-4.4196" y1="-3.556" x2="-4.6736" y2="-3.556" width="0.1524" layer="21" curve="-180"/>
-<wire x1="-4.6736" y1="-3.556" x2="-4.4196" y2="-3.556" width="0.1524" layer="21" curve="-180"/>
-<text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
-<text x="-1.7272" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
-</package>
 <package name="SOT-223_DIO-M" urn="urn:adsk.eagle:footprint:29764340/2" library_version="3">
 <smd name="1" x="-2.3" y="-3.0758" dx="0.9016" dy="2.066" layer="1"/>
 <smd name="2" x="0" y="-3.0758" dx="0.9016" dy="2.066" layer="1"/>
@@ -5128,7 +4910,47 @@ Source: www.tycoelectronics.com .. ENG_DS_1654001_1099_RJ_L_0507.pdf</descriptio
 <text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
 <text x="-1.7272" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
 </package>
-<package name="SOT-223_DIO-L" urn="urn:adsk.eagle:footprint:29764341/1" library_version="1">
+<package name="SOT-223_DIO" urn="urn:adsk.eagle:footprint:29764342/2" library_version="4">
+<smd name="1" x="-2.3" y="-3.025" dx="0.8508" dy="1.7612" layer="1"/>
+<smd name="2" x="0" y="-3.025" dx="0.8508" dy="1.7612" layer="1"/>
+<smd name="3" x="2.3" y="-3.025" dx="0.8508" dy="1.7612" layer="1"/>
+<smd name="4" x="0" y="3.025" dx="3.1508" dy="1.7612" layer="1"/>
+<wire x1="-1.905" y1="-1.778" x2="-2.6924" y2="-1.778" width="0.1524" layer="51"/>
+<wire x1="-2.6924" y1="-1.778" x2="-2.6924" y2="-3.556" width="0.1524" layer="51"/>
+<wire x1="-2.6924" y1="-3.556" x2="-1.905" y2="-3.556" width="0.1524" layer="51"/>
+<wire x1="-1.905" y1="-3.556" x2="-1.905" y2="-1.778" width="0.1524" layer="51"/>
+<wire x1="0.4064" y1="-1.778" x2="-0.4064" y2="-1.778" width="0.1524" layer="51"/>
+<wire x1="-0.4064" y1="-1.778" x2="-0.4064" y2="-3.556" width="0.1524" layer="51"/>
+<wire x1="-0.4064" y1="-3.556" x2="0.4064" y2="-3.556" width="0.1524" layer="51"/>
+<wire x1="0.4064" y1="-3.556" x2="0.4064" y2="-1.778" width="0.1524" layer="51"/>
+<wire x1="2.6924" y1="-1.778" x2="1.905" y2="-1.778" width="0.1524" layer="51"/>
+<wire x1="1.905" y1="-1.778" x2="1.905" y2="-3.556" width="0.1524" layer="51"/>
+<wire x1="1.905" y1="-3.556" x2="2.6924" y2="-3.556" width="0.1524" layer="51"/>
+<wire x1="2.6924" y1="-3.556" x2="2.6924" y2="-1.778" width="0.1524" layer="51"/>
+<wire x1="-1.5494" y1="1.778" x2="1.5494" y2="1.778" width="0.1524" layer="51"/>
+<wire x1="1.5494" y1="1.778" x2="1.5494" y2="3.556" width="0.1524" layer="51"/>
+<wire x1="1.5494" y1="3.556" x2="-1.5494" y2="3.556" width="0.1524" layer="51"/>
+<wire x1="-1.5494" y1="3.556" x2="-1.5494" y2="1.778" width="0.1524" layer="51"/>
+<wire x1="-3.2766" y1="-1.778" x2="3.2766" y2="-1.778" width="0.1524" layer="51"/>
+<wire x1="3.2766" y1="-1.778" x2="3.2766" y2="1.778" width="0.1524" layer="51"/>
+<wire x1="3.2766" y1="1.778" x2="-3.2766" y2="1.778" width="0.1524" layer="51"/>
+<wire x1="-3.2766" y1="1.778" x2="-3.2766" y2="-1.778" width="0.1524" layer="51"/>
+<wire x1="-2.8956" y1="-1.524" x2="-3.1496" y2="-1.524" width="0" layer="51" curve="-180"/>
+<wire x1="-3.1496" y1="-1.524" x2="-2.8956" y2="-1.524" width="0" layer="51" curve="-180"/>
+<wire x1="-3.4036" y1="-1.905" x2="-2.9464" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="3.4036" y1="-1.905" x2="3.4036" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="3.4036" y1="1.905" x2="1.8034" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="-3.4036" y1="1.905" x2="-3.4036" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-1.651" y1="-1.905" x2="-0.6604" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="0.6604" y1="-1.905" x2="1.651" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="2.9464" y1="-1.905" x2="3.4036" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-1.8034" y1="1.905" x2="-3.4036" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="-3.1496" y1="-2.286" x2="-3.4036" y2="-2.286" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-3.4036" y1="-2.286" x2="-3.1496" y2="-2.286" width="0.1524" layer="21" curve="-180"/>
+<text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
+<text x="-1.7272" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
+</package>
+<package name="SOT-223_DIO-L" urn="urn:adsk.eagle:footprint:29764341/2" library_version="4">
 <smd name="1" x="-2.3" y="-2.9742" dx="0.8" dy="1.4564" layer="1"/>
 <smd name="2" x="0" y="-2.9742" dx="0.8" dy="1.4564" layer="1"/>
 <smd name="3" x="2.3" y="-2.9742" dx="0.8" dy="1.4564" layer="1"/>
@@ -5159,24 +4981,24 @@ Source: www.tycoelectronics.com .. ENG_DS_1654001_1099_RJ_L_0507.pdf</descriptio
 <wire x1="3.4036" y1="-1.905" x2="3.4036" y2="1.905" width="0.1524" layer="21"/>
 <wire x1="3.4036" y1="1.905" x2="-3.4036" y2="1.905" width="0.1524" layer="21"/>
 <wire x1="-3.4036" y1="1.905" x2="-3.4036" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-4.4196" y1="-3.556" x2="-4.6736" y2="-3.556" width="0.1524" layer="21" curve="-180"/>
-<wire x1="-4.6736" y1="-3.556" x2="-4.4196" y2="-3.556" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-3.1496" y1="-2.286" x2="-3.4036" y2="-2.286" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-3.4036" y1="-2.286" x2="-3.1496" y2="-2.286" width="0.1524" layer="21" curve="-180"/>
 <text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
 <text x="-1.7272" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
 </package>
 </packages>
 <packages3d>
-<package3d name="SOT-223_DIO" urn="urn:adsk.eagle:package:29764346/1" type="box" library_version="1">
-<packageinstances>
-<packageinstance name="SOT-223_DIO"/>
-</packageinstances>
-</package3d>
-<package3d name="SOT-223_DIO-M" urn="urn:adsk.eagle:package:29764344/2" type="box" library_version="3">
+<package3d name="SOT-223_DIO-M" urn="urn:adsk.eagle:package:29764344/3" type="model" library_version="4">
 <packageinstances>
 <packageinstance name="SOT-223_DIO-M"/>
 </packageinstances>
 </package3d>
-<package3d name="SOT-223_DIO-L" urn="urn:adsk.eagle:package:29764345/1" type="box" library_version="1">
+<package3d name="SOT-223_DIO" urn="urn:adsk.eagle:package:29764346/3" type="model" library_version="4">
+<packageinstances>
+<packageinstance name="SOT-223_DIO"/>
+</packageinstances>
+</package3d>
+<package3d name="SOT-223_DIO-L" urn="urn:adsk.eagle:package:29764345/3" type="model" library_version="4">
 <packageinstances>
 <packageinstance name="SOT-223_DIO-L"/>
 </packageinstances>
@@ -5197,7 +5019,7 @@ Source: www.tycoelectronics.com .. ENG_DS_1654001_1099_RJ_L_0507.pdf</descriptio
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="AP2111H-3.3TRG1" urn="urn:adsk.eagle:component:29764347/3" prefix="U" library_version="3">
+<deviceset name="AP2111H-3.3TRG1" urn="urn:adsk.eagle:component:29764347/4" prefix="U" library_version="4">
 <gates>
 <gate name="A" symbol="AP2111H-3.3TRG1" x="0" y="0"/>
 </gates>
@@ -5210,7 +5032,7 @@ Source: www.tycoelectronics.com .. ENG_DS_1654001_1099_RJ_L_0507.pdf</descriptio
 <connect gate="A" pin="VOUT" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:29764346/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29764346/3"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -5229,7 +5051,7 @@ Source: www.tycoelectronics.com .. ENG_DS_1654001_1099_RJ_L_0507.pdf</descriptio
 <connect gate="A" pin="VOUT" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:29764344/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29764344/3"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -5248,7 +5070,7 @@ Source: www.tycoelectronics.com .. ENG_DS_1654001_1099_RJ_L_0507.pdf</descriptio
 <connect gate="A" pin="VOUT" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:29764345/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29764345/3"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -5571,6 +5393,184 @@ Source: www.tycoelectronics.com .. ENG_DS_1654001_1099_RJ_L_0507.pdf</descriptio
 </deviceset>
 </devicesets>
 </library>
+<library name="con-tycoelectronics_copy" urn="urn:adsk.eagle:library:33324054">
+<description>&lt;b&gt;Tyco Electronics Connector&lt;/b&gt;&lt;p&gt;
+http://catalog.tycoelectronics.com&lt;br&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="RJ11-NO_SHIELD" urn="urn:adsk.eagle:footprint:10643/1" library_version="1">
+<description>&lt;b&gt;RJ11 Low Profile&lt;/b&gt; No Shield&lt;/b&gt;&lt;p&gt;
+For all RJ11 N and Z Series Models&lt;br&gt;
+Source: www.tycoelectronics.com .. ENG_DS_1654001_1099_RJ_L_0507.pdf</description>
+<wire x1="-6.877" y1="10.819" x2="6.877" y2="10.819" width="0.2032" layer="21"/>
+<wire x1="7.8105" y1="-5.51" x2="-7.8105" y2="-5.51" width="0.01" layer="20"/>
+<wire x1="6.877" y1="-7.782" x2="-6.877" y2="-7.782" width="0.2032" layer="21"/>
+<wire x1="-6.877" y1="-7.782" x2="-6.877" y2="10.819" width="0.2032" layer="21"/>
+<wire x1="6.877" y1="10.819" x2="6.877" y2="-7.782" width="0.2032" layer="21"/>
+<pad name="4" x="0.635" y="6.35" drill="0.9" diameter="1.4"/>
+<pad name="3" x="-0.635" y="8.89" drill="0.9" diameter="1.4"/>
+<pad name="2" x="-1.905" y="6.35" drill="0.9" diameter="1.4"/>
+<pad name="5" x="1.905" y="8.89" drill="0.9" diameter="1.4"/>
+<pad name="1" x="-3.175" y="8.89" drill="0.9" diameter="1.4"/>
+<pad name="6" x="3.175" y="6.35" drill="0.9" diameter="1.4"/>
+<text x="-7.62" y="-0.635" size="1.778" layer="25" rot="R90">&gt;NAME</text>
+<text x="-5.715" y="2.54" size="1.778" layer="27">&gt;VALUE</text>
+<rectangle x1="6.95" y1="-5.485" x2="7.875" y2="-4.342" layer="21"/>
+<rectangle x1="-7.875" y1="-5.485" x2="-6.95" y2="-4.342" layer="21"/>
+<hole x="-5.08" y="0" drill="3.2512"/>
+<hole x="5.08" y="0" drill="3.2512"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="RJ11-NO_SHIELD" urn="urn:adsk.eagle:package:33324049/2" type="model" library_version="1">
+<description>RJ11 Low Profile No Shield
+For all RJ11 N and Z Series Models
+Source: www.tycoelectronics.com .. ENG_DS_1654001_1099_RJ_L_0507.pdf</description>
+<packageinstances>
+<packageinstance name="RJ11-NO_SHIELD"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="JACK6" urn="urn:adsk.eagle:symbol:10642/1" library_version="1">
+<wire x1="1.524" y1="5.588" x2="0" y2="5.588" width="0.254" layer="94"/>
+<wire x1="0" y1="5.588" x2="0" y2="4.572" width="0.254" layer="94"/>
+<wire x1="0" y1="4.572" x2="1.524" y2="4.572" width="0.254" layer="94"/>
+<wire x1="1.524" y1="3.048" x2="0" y2="3.048" width="0.254" layer="94"/>
+<wire x1="0" y1="3.048" x2="0" y2="2.032" width="0.254" layer="94"/>
+<wire x1="0" y1="2.032" x2="1.524" y2="2.032" width="0.254" layer="94"/>
+<wire x1="1.524" y1="0.508" x2="0" y2="0.508" width="0.254" layer="94"/>
+<wire x1="0" y1="0.508" x2="0" y2="-0.508" width="0.254" layer="94"/>
+<wire x1="0" y1="-0.508" x2="1.524" y2="-0.508" width="0.254" layer="94"/>
+<wire x1="1.524" y1="-2.032" x2="0" y2="-2.032" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.032" x2="0" y2="-3.048" width="0.254" layer="94"/>
+<wire x1="0" y1="-3.048" x2="1.524" y2="-3.048" width="0.254" layer="94"/>
+<wire x1="1.524" y1="-4.572" x2="0" y2="-4.572" width="0.254" layer="94"/>
+<wire x1="0" y1="-4.572" x2="0" y2="-5.588" width="0.254" layer="94"/>
+<wire x1="0" y1="-5.588" x2="1.524" y2="-5.588" width="0.254" layer="94"/>
+<wire x1="1.524" y1="-7.112" x2="0" y2="-7.112" width="0.254" layer="94"/>
+<wire x1="0" y1="-7.112" x2="0" y2="-8.128" width="0.254" layer="94"/>
+<wire x1="0" y1="-8.128" x2="1.524" y2="-8.128" width="0.254" layer="94"/>
+<wire x1="4.318" y1="-3.556" x2="6.858" y2="-3.556" width="0.1998" layer="94"/>
+<wire x1="6.858" y1="-3.556" x2="6.858" y2="-2.286" width="0.1998" layer="94"/>
+<wire x1="6.858" y1="-2.286" x2="7.874" y2="-2.286" width="0.1998" layer="94"/>
+<wire x1="7.874" y1="-2.286" x2="7.874" y2="-0.254" width="0.1998" layer="94"/>
+<wire x1="7.874" y1="-0.254" x2="6.858" y2="-0.254" width="0.1998" layer="94"/>
+<wire x1="6.858" y1="-0.254" x2="6.858" y2="1.016" width="0.1998" layer="94"/>
+<wire x1="6.858" y1="1.016" x2="4.318" y2="1.016" width="0.1998" layer="94"/>
+<wire x1="4.318" y1="1.016" x2="4.318" y2="0" width="0.1998" layer="94"/>
+<wire x1="4.318" y1="0" x2="4.318" y2="-0.508" width="0.1998" layer="94"/>
+<wire x1="4.318" y1="-0.508" x2="4.318" y2="-1.016" width="0.1998" layer="94"/>
+<wire x1="4.318" y1="-1.016" x2="4.318" y2="-1.524" width="0.1998" layer="94"/>
+<wire x1="4.318" y1="-1.524" x2="4.318" y2="-2.032" width="0.1998" layer="94"/>
+<wire x1="4.318" y1="-2.032" x2="4.318" y2="-2.54" width="0.1998" layer="94"/>
+<wire x1="4.318" y1="-2.54" x2="4.318" y2="-3.556" width="0.1998" layer="94"/>
+<wire x1="4.318" y1="0" x2="5.08" y2="0" width="0.1998" layer="94"/>
+<wire x1="4.318" y1="-0.508" x2="5.08" y2="-0.508" width="0.1998" layer="94"/>
+<wire x1="4.318" y1="-1.016" x2="5.08" y2="-1.016" width="0.1998" layer="94"/>
+<wire x1="4.318" y1="-1.524" x2="5.08" y2="-1.524" width="0.1998" layer="94"/>
+<wire x1="4.318" y1="-2.032" x2="5.08" y2="-2.032" width="0.1998" layer="94"/>
+<wire x1="4.318" y1="-2.54" x2="5.08" y2="-2.54" width="0.1998" layer="94"/>
+<text x="-2.54" y="7.62" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-10.668" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="-2.54" y="5.08" visible="pin" length="short" direction="pas" swaplevel="1"/>
+<pin name="2" x="-2.54" y="2.54" visible="pin" length="short" direction="pas" swaplevel="1"/>
+<pin name="3" x="-2.54" y="0" visible="pin" length="short" direction="pas" swaplevel="1"/>
+<pin name="4" x="-2.54" y="-2.54" visible="pin" length="short" direction="pas" swaplevel="1"/>
+<pin name="5" x="-2.54" y="-5.08" visible="pin" length="short" direction="pas" swaplevel="1"/>
+<pin name="6" x="-2.54" y="-7.62" visible="pin" length="short" direction="pas" swaplevel="1"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="RJ11" urn="urn:adsk.eagle:component:33324055/1" prefix="J" library_version="1">
+<description>&lt;b&gt;CORCOM Modular RJ Jacks&lt;/b&gt; No Shield&lt;p&gt;
+Source: www.tycoelectronics.com .. ENG_DS_1654001_1099_RJ_L_0507.pdf</description>
+<gates>
+<gate name="G$1" symbol="JACK6" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RJ11-NO_SHIELD">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:33324049/2"/>
+</package3dinstances>
+<technologies>
+<technology name="-2L-B">
+<attribute name="MF" value="TYCO ELECTRONICS" constant="no"/>
+<attribute name="MPN" value="RJ11-2L-B" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="83F4463" constant="no"/>
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
+<technology name="-2L-S">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="RJ11-2L-S" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="73K3294" constant="no"/>
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
+<technology name="-2X">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
+<technology name="-4L-B">
+<attribute name="MF" value="TYCO ELECTRONICS" constant="no"/>
+<attribute name="MPN" value="RJ11-4L-B" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="52K3315" constant="no"/>
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
+<technology name="-4L-S">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="RJ11-4L-S" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="69K7126" constant="no"/>
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
+<technology name="-4X">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="6609214-3" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="19R7022" constant="no"/>
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
+<technology name="-6L-B">
+<attribute name="MF" value="TYCO ELECTRONICS" constant="no"/>
+<attribute name="MPN" value="RJ11-6L-B" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="52K3613" constant="no"/>
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
+<technology name="-6L-S">
+<attribute name="MF" value="TYCO ELECTRONICS" constant="no"/>
+<attribute name="MPN" value="RJ11-6L-S" constant="no"/>
+<attribute name="OC_FARNELL" value="1654827" constant="no"/>
+<attribute name="OC_NEWARK" value="50F1358" constant="no"/>
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
+<technology name="-6X">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="RJ11-6X" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="16R6089" constant="no"/>
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -5581,15 +5581,15 @@ Source: www.tycoelectronics.com .. ENG_DS_1654001_1099_RJ_L_0507.pdf</descriptio
 </class>
 </classes>
 <parts>
-<part name="J1" library="8468-11B1-RK-TP" library_urn="urn:adsk.eagle:library:33322605" deviceset="8468-11B1-RK-TP" device="" package3d_urn="urn:adsk.eagle:package:33322608/1"/>
+<part name="J1" library="8468-11B1-RK-TP" library_urn="urn:adsk.eagle:library:33322605" deviceset="8468-11B1-RK-TP" device="" package3d_urn="urn:adsk.eagle:package:33322608/2"/>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="075-052X106" package3d_urn="urn:adsk.eagle:package:23650/1" value="S471K33Y5PR63K7R"/>
 <part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="075-052X106" package3d_urn="urn:adsk.eagle:package:23650/1" value="S471K33Y5PR63K7R"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="PTC1" library="TR600-150F-EX" library_urn="urn:adsk.eagle:library:33322685" deviceset="TR600-150F-EX" device="" package3d_urn="urn:adsk.eagle:package:33322688/2" value="TR600-150F-EX"/>
-<part name="J2" library="con-tycoelectronics" library_urn="urn:adsk.eagle:library:193" deviceset="RJ11" device="" package3d_urn="urn:adsk.eagle:package:10656/1" technology="-2L-B" value="1-1705950-2"/>
-<part name="U1" library="AP2111H-3.3TRG1" library_urn="urn:adsk.eagle:library:29764339" deviceset="AP2111H-3.3TRG1" device="SOT-223_DIO-M" package3d_urn="urn:adsk.eagle:package:29764344/2" value="AP2111H-3.3"/>
+<part name="J2" library="con-tycoelectronics_copy" library_urn="urn:adsk.eagle:library:33324054" deviceset="RJ11" device="" package3d_urn="urn:adsk.eagle:package:33324049/2" technology="-2L-B" value="1-1705950-2"/>
+<part name="U1" library="AP2111H-3.3TRG1" library_urn="urn:adsk.eagle:library:29764339" deviceset="AP2111H-3.3TRG1" device="SOT-223_DIO-M" package3d_urn="urn:adsk.eagle:package:29764344/3" value="AP2111H-3.3"/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="4.7uf"/>
 <part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="4.7uf"/>
