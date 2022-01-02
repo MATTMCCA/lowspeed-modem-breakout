@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="1" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -74,10 +74,14 @@
 <board>
 <fusionsync huburn="a.YnVzaW5lc3M6bWljcm9jb21jb3Jw" projecturn="a.YnVzaW5lc3M6bWljcm9jb21jb3JwI0QyMDIxMDYxMDQxOTQ4MzU4MQ" f3durn="urn:adsk.wipprod:dm.lineage:LzuZvWWlQPyJhGtXXWPxQw" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="3d90f0ff-372a-4452-86a0-9c1ca5f5b2b4" lastsyncedrevisionid="3d90f0ff-372a-4452-86a0-9c1ca5f5b2b4" lastboardhashguid="5c6f4c84-b72e-239e-59ac-1270da0e2af2" lastpushedtime="2022-01-02T00:11:29Z" linktopcb3d="true"/>
 <plain>
-<wire x1="0" y1="0" x2="71.1" y2="0" width="0" layer="20"/>
-<wire x1="71.1" y1="0" x2="71.1" y2="42.596" width="0" layer="20"/>
-<wire x1="71.1" y1="42.596" x2="0" y2="42.596" width="0" layer="20"/>
-<wire x1="0" y1="42.596" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="0" y1="41.326" x2="0" y2="1.27" width="0" layer="20"/>
+<wire x1="0" y1="1.27" x2="1.27" y2="0" width="0" layer="20" curve="90"/>
+<wire x1="1.27" y1="0" x2="69.83" y2="0" width="0" layer="20"/>
+<wire x1="69.83" y1="0" x2="71.1" y2="1.27" width="0" layer="20" curve="90"/>
+<wire x1="71.1" y1="1.27" x2="71.1" y2="41.326" width="0" layer="20"/>
+<wire x1="71.1" y1="41.326" x2="69.83" y2="42.596" width="0" layer="20" curve="90"/>
+<wire x1="69.83" y1="42.596" x2="1.27" y2="42.596" width="0" layer="20"/>
+<wire x1="1.27" y1="42.596" x2="0" y2="41.326" width="0" layer="20" curve="90"/>
 <text x="5.334" y="38.1" size="0.8128" layer="21" font="vector" ratio="16">+5</text>
 <text x="5.334" y="35.306" size="0.8128" layer="21" font="vector" ratio="16">!DCD</text>
 <text x="5.334" y="32.766" size="0.8128" layer="21" font="vector" ratio="16">!RESET</text>
